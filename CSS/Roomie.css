@@ -1,0 +1,44 @@
+.customNav {
+    position: fixed;
+    width: 100%;
+    background: url("../images/transparency.png");
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 75px;
+  }
+  .brand-name-Ryan{
+   font-size: 60px;
+   font-family: permanent-marker-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    width:100px;
+    height: auto;
+  line-height: 37px;
+  }
+  .nav-item {
+    margin: 0px 15px;
+    float:inline-end;
+  }
+  
+  .dropdown-menu {
+    background: url("../images/transparency.png");
+    background-color: transparent !important;
+    background-size: cover;
+  }
+  .dropdown-item:focus, .dropdown-item:hover {
+      color: #16181b;
+      text-decoration: none;
+      background: black;
+  }
+  
+  .customNav a {
+    color: white !important;
+  }
